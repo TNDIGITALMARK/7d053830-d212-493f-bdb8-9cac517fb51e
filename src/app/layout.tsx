@@ -18,8 +18,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Elegant Flora Boutique",
-  description: "Beautiful AI-powered website creation platform",
+  title: "Natural Healing & Wellness | Holistic Medicine Practitioners",
+  description: "Connect with certified holistic practitioners for natural healing solutions. Find acupuncturists, herbalists, reiki masters, and wellness experts in your area.",
 };
 
 export default function RootLayout({
