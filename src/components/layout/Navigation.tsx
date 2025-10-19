@@ -39,6 +39,12 @@ export default function Navigation() {
               Resources
             </Link>
             <Link
+              href="/about"
+              className="text-[hsl(var(--dark-charcoal))] hover:text-[hsl(var(--sage-green))] transition-colors font-medium"
+            >
+              About Us
+            </Link>
+            <Link
               href="/"
               className="bg-[hsl(var(--earth-terracotta))] text-white px-6 py-2.5 rounded-full hover:bg-[hsl(var(--gold-bronze))] transition-colors font-medium"
             >
@@ -88,6 +94,13 @@ export default function Navigation() {
                 onClick={() => setMobileMenuOpen(false)}
               >
                 Resources
+              </Link>
+              <Link
+                href="/about"
+                className="text-[hsl(var(--dark-charcoal))] hover:text-[hsl(var(--sage-green))] transition-colors font-medium px-2 py-2"
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                About Us
               </Link>
               <Link
                 href="/"
