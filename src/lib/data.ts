@@ -25,9 +25,10 @@ export interface Practitioner {
 export interface Treatment {
   id: string
   name: string
-  icon: string
+  icon: string // Icon identifier for mapping
   description: string
   practitionerCount: number
+  detailedDescription?: string
 }
 
 export interface Article {
@@ -137,43 +138,49 @@ export const treatments: Treatment[] = [
   {
     id: 'acupuncture',
     name: 'Acupuncture',
-    icon: '🎋',
+    icon: 'acupuncture',
     description: 'Traditional needle therapy to restore energy balance and promote healing',
+    detailedDescription: 'Ancient Chinese medicine technique using fine needles to stimulate specific points on the body, promoting natural healing and pain relief.',
     practitionerCount: 47
   },
   {
     id: 'herbal-medicine',
     name: 'Herbal Medicine',
-    icon: '🌿',
+    icon: 'herbal',
     description: 'Natural plant-based remedies for various health conditions',
+    detailedDescription: 'Custom herbal formulations using traditional botanical knowledge to support your body\'s natural healing processes and address root causes.',
     practitionerCount: 23
   },
   {
     id: 'meditation',
-    name: 'Meditation',
-    icon: '🦋',
+    name: 'Meditation & Mindfulness',
+    icon: 'meditation',
     description: 'Mindfulness practices for mental clarity and stress reduction',
+    detailedDescription: 'Guided meditation sessions and mindfulness training to reduce stress, improve focus, and cultivate inner peace and emotional balance.',
     practitionerCount: 31
   },
   {
     id: 'energy-healing',
     name: 'Energy Healing',
-    icon: '✨',
+    icon: 'energy',
     description: 'Reiki and other energy-based healing modalities',
+    detailedDescription: 'Non-invasive energy work including Reiki, chakra balancing, and healing touch to restore balance and promote deep relaxation.',
     practitionerCount: 31
   },
   {
     id: 'massage-therapy',
     name: 'Massage Therapy',
-    icon: '💆',
+    icon: 'massage',
     description: 'Therapeutic bodywork for pain relief and relaxation',
+    detailedDescription: 'Professional therapeutic massage techniques to relieve muscle tension, improve circulation, and support overall physical wellness.',
     practitionerCount: 52
   },
   {
     id: 'nutrition',
-    name: 'Nutrition',
-    icon: '🥗',
+    name: 'Holistic Nutrition',
+    icon: 'nutrition',
     description: 'Holistic nutritional counseling and dietary guidance',
+    detailedDescription: 'Personalized nutrition plans that consider your whole health picture, supporting wellness through food as medicine.',
     practitionerCount: 18
   }
 ]
