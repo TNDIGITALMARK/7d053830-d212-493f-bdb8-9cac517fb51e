@@ -53,7 +53,7 @@ export default function HomePage() {
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 lg:py-36">
           <div className="max-w-3xl">
             <h1 className="text-5xl lg:text-6xl font-heading font-bold text-[hsl(var(--dark-charcoal))] mb-6 animate-fade-in-up">
-              Discover Your Path to <span className="text-[hsl(var(--sage-green))]">Natural Wellness</span>
+              Discover Your Path to <span className="text-[hsl(var(--sage-green))]">POOOOOPYY</span>
             </h1>
             <p className="text-xl lg:text-2xl text-[hsl(var(--dark-charcoal))] mb-6 leading-relaxed animate-fade-in-up animate-delay-100">
               Connect with certified holistic practitioners who treat the whole person—body, mind, and spirit. Experience the transformative power of natural healing modalities backed by ancient wisdom and modern expertise.
